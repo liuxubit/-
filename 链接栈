@@ -1,4 +1,7 @@
-from LNode import LNode
+class LNode :
+    def __init__(self, elm, nxt):
+        self.elem = elm
+        self.next = nxt
 
 class StackUnderflow(ValueError):
     pass
